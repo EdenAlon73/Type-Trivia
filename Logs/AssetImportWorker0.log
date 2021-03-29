@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.1f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/EdenA/OneDrive/Documents/Shenkar/Unity/Unity Projects/Type Trivia
+C:/Users/EdenA/OneDrive/Documents/Shenkar/Unity/Unity Projects/Type Trivia/Type-Trivia
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57134
-Successfully changed project path to: C:/Users/EdenA/OneDrive/Documents/Shenkar/Unity/Unity Projects/Type Trivia
-C:/Users/EdenA/OneDrive/Documents/Shenkar/Unity/Unity Projects/Type Trivia
+57323
+Successfully changed project path to: C:/Users/EdenA/OneDrive/Documents/Shenkar/Unity/Unity Projects/Type Trivia/Type-Trivia
+C:/Users/EdenA/OneDrive/Documents/Shenkar/Unity/Unity Projects/Type Trivia/Type-Trivia
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 21.51 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 21.90 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/EdenA/OneDrive/Documents/Shenkar/Unity/Unity Projects/Type Trivia/Assets
+[Subsystems] Discovering subsystems at path C:/Users/EdenA/OneDrive/Documents/Shenkar/Unity/Unity Projects/Type Trivia/Type-Trivia/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,65 +35,340 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002154 seconds.
+Registered in 0.002301 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 23.86 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 21.77 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.753 seconds
+- Completed reload, in  1.676 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000696 seconds.
+Registered in 0.000843 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.825 seconds
+- Completed reload, in  0.785 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 57.2 MB.
 System memory in use after: 57.3 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1555.
-Total: 2.453600 ms (FindLiveObjects: 0.249500 ms CreateObjectMapping: 0.075700 ms MarkObjects: 2.018600 ms  DeleteObjects: 0.108200 ms)
+Total: 2.370000 ms (FindLiveObjects: 0.131600 ms CreateObjectMapping: 0.039700 ms MarkObjects: 2.044900 ms  DeleteObjects: 0.152300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes
-  artifactKey: Guid(3fa74a5d39b5cc44caafff90ea6c8cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(3fa74a5d39b5cc44caafff90ea6c8cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b5aff1086f10624841c2886197f9e3') in 0.004339 seconds
-  Import took 0.005976 seconds .
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6374019befeac6ce670f13ba9960efb') in 0.003897 seconds
+  Import took 0.006059 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0c7bd3eade52b464e03a3fa19ccb01') in 0.007652 seconds
-  Import took 0.009407 seconds .
+  Time since last request: 9.632760 seconds.
+  path: Assets/Type Trivia
+  artifactKey: Guid(31950cea5381d234a9a28206e9f56dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Type Trivia using Guid(31950cea5381d234a9a28206e9f56dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dbe810b057ba5a57c86260ed132d303') in 0.002160 seconds
+  Import took 0.003749 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.829270 seconds.
-  path: Assets/Scenes/Type Triva 01.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Type Triva 01.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3412bb3e1ada6e0c66cc86a93363239e') in 0.002185 seconds
-  Import took 0.003845 seconds .
+  Time since last request: 16.032725 seconds.
+  path: Assets/Type Trivia/FBX
+  artifactKey: Guid(993fc4fd94fc0a24a909d835875bfe62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Type Trivia/FBX using Guid(993fc4fd94fc0a24a909d835875bfe62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58043b23b4e5f112c4995a76c7ea0403') in 0.002473 seconds
+  Import took 0.004046 seconds .
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 246.979197 seconds.
+  path: Assets/Type Trivia/FBX/Ring Box.fbx
+  artifactKey: Guid(887c41daf61d88b4c8795cd8e46e7a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Type Trivia/FBX/Ring Box.fbx using Guid(887c41daf61d88b4c8795cd8e46e7a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953a1a0839160393ccc6848f36327406') in 0.378262 seconds
+  Import took 0.380253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.389989 seconds.
+  path: Assets/Type Trivia/FBX/Ring Box.fbx
+  artifactKey: Guid(887c41daf61d88b4c8795cd8e46e7a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Type Trivia/FBX/Ring Box.fbx using Guid(887c41daf61d88b4c8795cd8e46e7a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e37a463a503cb1f3d0905191a9d90b') in 0.065170 seconds
+  Import took 0.066940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.558987 seconds.
+  path: Assets/Type Trivia/FBX/Ring Box.fbx
+  artifactKey: Guid(887c41daf61d88b4c8795cd8e46e7a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Type Trivia/FBX/Ring Box.fbx using Guid(887c41daf61d88b4c8795cd8e46e7a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fdcb52e8a9818c9d870e7435bf6667c') in 0.059535 seconds
+  Import took 0.061343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.412398 seconds.
+  path: Assets/Type Trivia/FBX/Ring Box.fbx
+  artifactKey: Guid(887c41daf61d88b4c8795cd8e46e7a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Type Trivia/FBX/Ring Box.fbx using Guid(887c41daf61d88b4c8795cd8e46e7a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1def21729c3cad51cfd524b52947e73') in 0.065102 seconds
+  Import took 0.067000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.672261 seconds.
+  path: Assets/Type Trivia/FBX/Ring Box.fbm
+  artifactKey: Guid(2b8f1854cff481d4cb865e28b18aafc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Type Trivia/FBX/Ring Box.fbm using Guid(2b8f1854cff481d4cb865e28b18aafc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa99e897f6bada0ff198bfe4d55adc6') in 0.002241 seconds
+  Import took 0.003881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.595220 seconds.
+  path: Assets/Type Trivia/FBX/Ring Box.fbm/brushed_suede_creases-02_basecolor.png
+  artifactKey: Guid(1636d369941ac4a4396ade826be03a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Type Trivia/FBX/Ring Box.fbm/brushed_suede_creases-02_basecolor.png using Guid(1636d369941ac4a4396ade826be03a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffaf2299071c39f3add0aba31338066') in 0.036305 seconds
+  Import took 0.038069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007049 seconds.
+  path: Assets/Type Trivia/FBX/Ring Box.fbm/brushed_suede_creases-02_basecolor.png
+  artifactKey: Guid(1636d369941ac4a4396ade826be03a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Type Trivia/FBX/Ring Box.fbm/brushed_suede_creases-02_basecolor.png using Guid(1636d369941ac4a4396ade826be03a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffaf2299071c39f3add0aba31338066') in 0.007542 seconds
+  Import took 0.009490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.277346 seconds.
+  path: Assets/Type Trivia/FBX/Ring Box.fbm/brushed_suede_creases-02_roughness.png
+  artifactKey: Guid(564ab315744445c4f8856c231336676d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Type Trivia/FBX/Ring Box.fbm/brushed_suede_creases-02_roughness.png using Guid(564ab315744445c4f8856c231336676d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea2a6ac1f131b8b26389aa567708d18') in 0.008243 seconds
+  Import took 0.009999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.439485 seconds.
+  path: Assets/Type Trivia/FBX/Ring Box.fbm/brushed_suede_creases_basecolor.png
+  artifactKey: Guid(1f8cae6cff4c01143bc2fb6820366879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Type Trivia/FBX/Ring Box.fbm/brushed_suede_creases_basecolor.png using Guid(1f8cae6cff4c01143bc2fb6820366879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81cefabc127663952a93e30ed17763ca') in 0.008852 seconds
+  Import took 0.010667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.360289 seconds.
+  path: Assets/Type Trivia/FBX/Ring Box.fbm/brushed_suede_creases_roughness.png
+  artifactKey: Guid(5e2f7fcfba58b3a4c833116460045d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Type Trivia/FBX/Ring Box.fbm/brushed_suede_creases_roughness.png using Guid(5e2f7fcfba58b3a4c833116460045d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de5e43dad4cf9c539b36fad99e99e90') in 0.007901 seconds
+  Import took 0.009712 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000676 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.738 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.2 MB.
+System memory in use after: 62.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1654.
+Total: 1.626300 ms (FindLiveObjects: 0.129800 ms CreateObjectMapping: 0.036400 ms MarkObjects: 1.386000 ms  DeleteObjects: 0.072800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 497.715656 seconds.
+  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Blue Sky.png
+  artifactKey: Guid(beb1457d375110e468b8d8e1f29fccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Blue Sky.png using Guid(beb1457d375110e468b8d8e1f29fccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8cda27d24e928d23be80adadc454af') in 0.278632 seconds
+  Import took 0.283785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.349505 seconds.
+  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Night Sky.exr
+  artifactKey: Guid(fa41734a337674542975482c8fe96ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Night Sky.exr using Guid(fa41734a337674542975482c8fe96ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ed76af6161e1de9d1682dcd2a08ced') in 0.149098 seconds
+  Import took 0.161530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001953 seconds.
+  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Night Sky.exr
+  artifactKey: Guid(fa41734a337674542975482c8fe96ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Night Sky.exr using Guid(fa41734a337674542975482c8fe96ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ed76af6161e1de9d1682dcd2a08ced') in 0.130733 seconds
+  Import took 0.142077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.988744 seconds.
+  path: Assets/BOXOPHOBIC
+  artifactKey: Guid(9502c89f9c61cde4b94fbaa3207f5ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC using Guid(9502c89f9c61cde4b94fbaa3207f5ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9e9a830a95775072d1559554c78dac') in 0.002086 seconds
+  Import took 0.003952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.400682 seconds.
+  path: Assets/BOXOPHOBIC/Utils
+  artifactKey: Guid(a85b6dec3188bd14194e16aa24e9fd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Utils using Guid(a85b6dec3188bd14194e16aa24e9fd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424d6af134c7484ec5152b989f5999a7') in 0.002433 seconds
+  Import took 0.004348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.639615 seconds.
+  path: Assets/BOXOPHOBIC/Utils/Utils.pdf
+  artifactKey: Guid(0aca0e2d06b26544681357ef98393b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Utils/Utils.pdf using Guid(0aca0e2d06b26544681357ef98393b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175f30dc372423031c48f6bac17d3225') in 0.004071 seconds
+  Import took 0.005843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003568 seconds.
+  path: Assets/BOXOPHOBIC/Utils/Utils.pdf
+  artifactKey: Guid(0aca0e2d06b26544681357ef98393b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Utils/Utils.pdf using Guid(0aca0e2d06b26544681357ef98393b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175f30dc372423031c48f6bac17d3225') in 0.001955 seconds
+  Import took 0.003669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.413304 seconds.
+  path: Assets/BOXOPHOBIC/Utils/Resources
+  artifactKey: Guid(90bc80fda3a54e2439aef2dae0c8a14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Utils/Resources using Guid(90bc80fda3a54e2439aef2dae0c8a14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b48246aefce1d444343abc210861c1') in 0.002167 seconds
+  Import took 0.003915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.628651 seconds.
+  path: Assets/BOXOPHOBIC/User
+  artifactKey: Guid(f0aa5379d96b0e14795df45a380643fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/User using Guid(f0aa5379d96b0e14795df45a380643fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efbf965c5b98d160918f15e6e63cc9ac') in 0.002174 seconds
+  Import took 0.004051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.675108 seconds.
+  path: Assets/BOXOPHOBIC/User/User.pdf
+  artifactKey: Guid(983558b57a284d84bbc541f947bc5139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/User/User.pdf using Guid(983558b57a284d84bbc541f947bc5139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9064068ff2c77063edcc79ff079ec5') in 0.002052 seconds
+  Import took 0.004284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.126291 seconds.
+  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended
+  artifactKey: Guid(06fe4632bd09e57468b68c174e122233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended using Guid(06fe4632bd09e57468b68c174e122233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4433b9e7b1f7606d4c601e2a6498ea') in 0.002549 seconds
+  Import took 0.004696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.485490 seconds.
+  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Skybox Cubemap Extended.pdf
+  artifactKey: Guid(5cbce0d58b9d6d147bde7b2601194b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Skybox Cubemap Extended.pdf using Guid(5cbce0d58b9d6d147bde7b2601194b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa952296f753f2c07588c178e49587c') in 0.002808 seconds
+  Import took 0.005240 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000742 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.836 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1166 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.3 MB.
+System memory in use after: 62.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1660.
+Total: 1.856700 ms (FindLiveObjects: 0.196100 ms CreateObjectMapping: 0.076400 ms MarkObjects: 1.501100 ms  DeleteObjects: 0.082100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 39.0 MB.
+System memory in use after: 39.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1660.
+Total: 1.677200 ms (FindLiveObjects: 0.121600 ms CreateObjectMapping: 0.034200 ms MarkObjects: 1.336500 ms  DeleteObjects: 0.183900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 167.947729 seconds.
+  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo
+  artifactKey: Guid(de9e928d9c90c1d43a73ded89b05d1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo using Guid(de9e928d9c90c1d43a73ded89b05d1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3c5401a78515f1032210b5f723563b') in 0.003310 seconds
+  Import took 0.005306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004560 seconds.
+  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo
+  artifactKey: Guid(de9e928d9c90c1d43a73ded89b05d1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo using Guid(de9e928d9c90c1d43a73ded89b05d1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3c5401a78515f1032210b5f723563b') in 0.002014 seconds
+  Import took 0.003750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.908310 seconds.
+  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Demo Day.unity
+  artifactKey: Guid(67adac43bcf286444be612074ab04f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Demo Day.unity using Guid(67adac43bcf286444be612074ab04f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728431845c097601d21f128131072069') in 0.008934 seconds
+  Import took 0.010708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1585.586811 seconds.
+  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Blue Sky.png
+  artifactKey: Guid(beb1457d375110e468b8d8e1f29fccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Blue Sky.png using Guid(beb1457d375110e468b8d8e1f29fccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59230c61c5a9c626a1f6c02547e32da6') in 0.295207 seconds
+  Import took 0.301384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002707 seconds.
+  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Blue Sky.png
+  artifactKey: Guid(beb1457d375110e468b8d8e1f29fccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Blue Sky.png using Guid(beb1457d375110e468b8d8e1f29fccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59230c61c5a9c626a1f6c02547e32da6') in 0.071536 seconds
+  Import took 0.076892 seconds .
+
