@@ -372,3 +372,4 @@ Received Import Request.
 Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Blue Sky.png using Guid(beb1457d375110e468b8d8e1f29fccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59230c61c5a9c626a1f6c02547e32da6') in 0.071536 seconds
   Import took 0.076892 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
