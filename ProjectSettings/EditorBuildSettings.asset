@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Type Trivia/Scenes/Type Triva 01.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Type Trivia/Scenes/Type Triva 02.unity
+    guid: d26c9bb03b9118e45b9a0967580058d6
   m_configObjects: {}

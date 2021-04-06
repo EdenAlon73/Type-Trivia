@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,6 +10,7 @@ public class TxtFieldChanger : MonoBehaviour
     [SerializeField] private InputField inputField;
     [SerializeField] private InputField inputField2;
     [SerializeField] private InputField inputField3;
+    [SerializeField] private InputField[] inputFields;
     [SerializeField] private Image first;
     [SerializeField] private Image second;
     [SerializeField] private Image third;
@@ -25,10 +27,17 @@ public class TxtFieldChanger : MonoBehaviour
     private bool started3 = false;
     private bool onSecondField = false;
     private bool onThirdField = false;
+
+    private void Awake()
+    {
+        SelectFirstField();
+    }
+
     private void Update()
     {
         GotFieldRight();
         ChangeColor();
+        
     }
     private void GotFieldRight()
     {
@@ -69,6 +78,8 @@ public class TxtFieldChanger : MonoBehaviour
 
     private void ChangeField()
     {
+      //  var currentInputFieldIndex = inputFields[].ac
+        /*
         if (keyboardScript.TextField == inputField)
         {
             keyboardScript.TextField = inputField2;
@@ -84,6 +95,7 @@ public class TxtFieldChanger : MonoBehaviour
                 print("ya Changing Field");
             }
         }
+        */
     }
     private void ChangeColor()
     {
@@ -136,5 +148,10 @@ public class TxtFieldChanger : MonoBehaviour
             }
         }
        
+    }
+
+    private void SelectFirstField()
+    {
+        inputFields[0].ActivateInputField();
     }
 }
