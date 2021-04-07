@@ -29,12 +29,15 @@ public class TxtFieldChanger : MonoBehaviour
     private bool started3 = false;
     private bool onSecondField = false;
     private bool onThirdField = false;
-    private int fieldIndex = 0;
+    [SerializeField] private int fieldIndex = 0;
     private void Awake()
+    {
+       
+    }
+    private void Start()
     {
         SelectFirstField();
     }
-
     private void Update()
     {
         GotFieldRight();

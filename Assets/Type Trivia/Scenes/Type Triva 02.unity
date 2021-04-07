@@ -1297,7 +1297,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 206207096}
-  m_LocalRotation: {x: 0.28044945, y: 1e-45, z: -0, w: 0.95986885}
+  m_LocalRotation: {x: 0.28044945, y: -3e-45, z: 1e-45, w: 0.95986885}
   m_LocalPosition: {x: 0, y: 5.3, z: -11.16}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -3201,7 +3201,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.28044945, y: 1e-45, z: -0, w: 0.95986885}
+  m_LocalRotation: {x: 0.28044945, y: -3e-45, z: 1e-45, w: 0.95986885}
   m_LocalPosition: {x: 0, y: 5.2999997, z: -11.16}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -4581,7 +4581,14 @@ MonoBehaviour:
   inputField: {fileID: 730908164}
   inputField2: {fileID: 151662647}
   inputField3: {fileID: 1280490275}
-  inputFields: []
+  inputFields:
+  - {fileID: 730908164}
+  - {fileID: 151662647}
+  - {fileID: 1280490275}
+  - {fileID: 79021613}
+  - {fileID: 311639951}
+  - {fileID: 1186517649}
+  - {fileID: 1343166627}
   first: {fileID: 730908165}
   second: {fileID: 151662645}
   third: {fileID: 1280490271}
@@ -4598,6 +4605,7 @@ MonoBehaviour:
   - o
   - n
   - d
+  fieldIndex: 0
 --- !u!1 &1459458561
 GameObject:
   m_ObjectHideFlags: 0
