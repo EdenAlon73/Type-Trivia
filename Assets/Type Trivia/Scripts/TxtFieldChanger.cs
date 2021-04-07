@@ -19,7 +19,9 @@ public class TxtFieldChanger : MonoBehaviour
     [SerializeField] private string latterToGuess = "s";
     [SerializeField] private string latterToGuess2 = "a";
     [SerializeField] private string latterToGuess3 = "y";
-    private bool gotFirstWord = false;
+    [SerializeField] private string[] lattersToGuess;
+    private bool gotLetterRight = false;
+    private bool startedWriting = false;
     private bool gotSecondWord = false;
     private bool gotThirdWord = false;
     private bool started = false;
@@ -27,7 +29,7 @@ public class TxtFieldChanger : MonoBehaviour
     private bool started3 = false;
     private bool onSecondField = false;
     private bool onThirdField = false;
-
+    private int fieldIndex = 0;
     private void Awake()
     {
         SelectFirstField();
@@ -41,6 +43,20 @@ public class TxtFieldChanger : MonoBehaviour
     }
     private void GotFieldRight()
     {
+        if (inputFields[fieldIndex].text.Equals(lattersToGuess[fieldIndex]))
+        {
+            gotLetterRight = true;
+            ChangeField();
+        }
+        else
+        {
+            gotLetterRight = false;
+            if (inputFields[fieldIndex].text.Length > 0)
+            {
+                startedWriting = true;
+            }
+        }
+        /*
         if (inputField.text.Equals(latterToGuess))
         {
             if (!gotFirstWord)
@@ -73,11 +89,13 @@ public class TxtFieldChanger : MonoBehaviour
         {
             started3 = true;
         }
-   
+        */
     }
 
     private void ChangeField()
     {
+        fieldIndex++;
+        SelectNextField();
       //  var currentInputFieldIndex = inputFields[].ac
         /*
         if (keyboardScript.TextField == inputField)
@@ -99,10 +117,26 @@ public class TxtFieldChanger : MonoBehaviour
     }
     private void ChangeColor()
     {
+        if (gotLetterRight)
+        {
+            inputFields[fieldIndex].image.color = green;
+            SelectNextField();
+        }
+        else
+        {
+            if (startedWriting)
+            {
+                inputFields[fieldIndex].image.color = red;
+                inputFields[fieldIndex].text = "";
+                startedWriting = false;
+            }
+        }
+
+        /*
         if (started)
         {
             
-                if (!gotFirstWord)
+                if (!gotLetterRight)
                 {
                     first.color = red;
                     inputField.Select();
@@ -147,11 +181,20 @@ public class TxtFieldChanger : MonoBehaviour
                 }
             }
         }
+        */
        
     }
 
     private void SelectFirstField()
     {
         inputFields[0].ActivateInputField();
+    }
+
+    private void SelectNextField()
+    {
+        if(fieldIndex < inputFields.Length)
+        {
+            inputFields[fieldIndex].ActivateInputField();
+        }
     }
 }
