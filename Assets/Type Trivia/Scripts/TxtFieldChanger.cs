@@ -199,7 +199,8 @@ public class TxtFieldChanger : MonoBehaviour
     {
         if(fieldIndex < inputFields.Length)
         {
-            inputFields[fieldIndex].ActivateInputField();
+            //inputFields[fieldIndex].ActivateInputField();
+            inputFields[fieldIndex].Select();
         }
     }
 }
