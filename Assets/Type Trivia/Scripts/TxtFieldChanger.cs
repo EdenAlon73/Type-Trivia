@@ -41,7 +41,7 @@ public class TxtFieldChanger : MonoBehaviour
     private void Update()
     {
         GotFieldRight();
-        ChangeColor();
+       // ChangeColor();
         
     }
     private void GotFieldRight()
@@ -49,7 +49,7 @@ public class TxtFieldChanger : MonoBehaviour
         if (inputFields[fieldIndex].text.Equals(lattersToGuess[fieldIndex]))
         {
             gotLetterRight = true;
-            ChangeField();
+            ChangeColor();
         }
         else
         {
@@ -57,6 +57,7 @@ public class TxtFieldChanger : MonoBehaviour
             if (inputFields[fieldIndex].text.Length > 0)
             {
                 startedWriting = true;
+                ChangeColor();
             }
         }
         /*
@@ -124,6 +125,7 @@ public class TxtFieldChanger : MonoBehaviour
         {
             inputFields[fieldIndex].image.color = green;
             SelectNextField();
+            ChangeField();
         }
         else
         {
